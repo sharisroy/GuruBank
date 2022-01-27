@@ -1,0 +1,11 @@
+com\guruBank\testCases\TC_AddCustomer_003.class
+com\guruBank\pageObjects\AddCustomerPage.class
+com\guruBank\utilities\Reporting.class
+com\guruBank\utilities\XlUtils.class
+com\guruBank\pageObjects\EditCustomerPage.class
+com\guruBank\testCases\BaseClass.class
+com\guruBank\testCases\TC_EditCoustomer_004.class
+com\guruBank\pageObjects\LoginPage.class
+com\guruBank\testCases\TC_LoginTest_002_UsingExcel.class
+com\guruBank\testCases\TC_LoginTest_001.class
+com\guruBank\utilities\ReadConfig.class

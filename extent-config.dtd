@@ -1,0 +1,10 @@
+<!ELEMENT extentreports (configuration)>
+<!ELEMENT configuration (theme,encoding,protocol,documentTitle,reportName,testViewChartLocation,scripts,styles)>
+<!ELEMENT theme (#PCDATA)>
+<!ELEMENT encoding (#PCDATA)>
+<!ELEMENT protocol (#PCDATA)>
+<!ELEMENT documentTitle (#PCDATA)>
+<!ELEMENT reportName (#PCDATA)>
+<!ELEMENT testViewChartLocation (#PCDATA)>
+<!ELEMENT scripts EMPTY>
+<!ELEMENT styles EMPTY>
