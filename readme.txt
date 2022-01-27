@@ -42,7 +42,14 @@ Password : AqAqyhE
 2.  $ git remote add origin "https://github.com/sharisroy/GuruBank.git" ( make it remote reposotory)
 3.  $ git status  ( what are fikes ready to commit in git repository
 4.  $ git add -A  ( Add all files into sataging area)
-5.  
+
+5.  $ git config --global user.name "sharisroy"
+6.  $ git config --global user.email "sharisroy@gmail.com"
+
+7.  $ git commit -m "This is my first commit" ( commit all the files in to git repository)
+8.  $ git push -u origin master  ( Push all file to repository )
+9.  $ git pull origin master ( get all file to locally)
+
 	
 
 Costomer id : 58863, 33397,67452,21526, 29731,
