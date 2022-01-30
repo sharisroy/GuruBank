@@ -33,7 +33,6 @@ public class TC_AddCustomer_003 extends BaseClass{
 		
 		closeAdvertisement();
 		Thread.sleep(3000);		
-		System.out.println("Try add customer");
 		
 		addCustomer.customerName("Haris");			
 		addCustomer.customerGender("m");
