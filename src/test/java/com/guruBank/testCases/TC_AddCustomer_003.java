@@ -25,40 +25,36 @@ public class TC_AddCustomer_003 extends BaseClass{
 		LoginPage  loginPage = new LoginPage(driver);
 		loginPage.setUserName(userId);
 		loginPage.setPassword(password);
-		loginPage.clickLoginButton();		
-		System.out.println("Login Done :)");
+		loginPage.clickLoginButton();	
+		logger.info("Login Done");
 		
 		AddCustomerPage addCustomer = new AddCustomerPage(driver);		
 		addCustomer.clickAddCustomerLink();
 		
 		closeAdvertisement();
-		Thread.sleep(3000);
+		Thread.sleep(3000);		
 		
-		System.out.println("Try add customer");
-		addCustomer.customerName("Haric");			
-		addCustomer.customerGender("f");
+		addCustomer.customerName("Haris");			
+		addCustomer.customerGender("m");
 		addCustomer.customerDob("12", "24", "1994");
 		addCustomer.customerAddress("Dhaka");	
 		addCustomer.customerCity("Mirpur");
-		
 		addCustomer.customerState("Block H");
 		addCustomer.customerPin("123456");
 		addCustomer.customerMobile("01700000001");
 		addCustomer.customerEmail(randomEmail());
-		addCustomer.customerPassword("12345");	
+		addCustomer.customerPassword("12345");
+		
 		logger.info("Provide all data");
 		addCustomer.clickSubmi();
-		Thread.sleep(8000);
+		Thread.sleep(3000);
 		
 		String cid = driver.findElement(By.xpath("//tbody/tr[4]/td[2]")).getText();
-		
+		logger.info("New Costomer Id : " + cid);		
 		System.out.println("New Costomer Id is: "+ cid);
 		
 		
-		System.out.println("All Data Added");
-
-		
-		
+		System.out.println("All Data Added");		
 		logger.info("validation started....");
 		
 		boolean res=driver.getPageSource().contains("Customer Registered Successfully!!!");
@@ -81,7 +77,6 @@ public class TC_AddCustomer_003 extends BaseClass{
 	
 	public String randomEmail() {
 		String email = RandomStringUtils.randomAlphabetic(8)+"@gmail.com";
-		System.out.println(email);
 		return email;
 	}
 	

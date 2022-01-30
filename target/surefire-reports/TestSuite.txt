@@ -1,4 +1,29 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.734 s - in TestSuite
+Tests run: 8, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 87.726 s <<< FAILURE! - in TestSuite
+com.guruBank.testCases.TC_LoginTest_002_UsingExcel.loginDDT[mngr38261a, evaneza](1)  Time elapsed: 6.246 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.guruBank.testCases.TC_LoginTest_002_UsingExcel.loginDDT(TC_LoginTest_002_UsingExcel.java:36)
+
+com.guruBank.testCases.TC_LoginTest_002_UsingExcel.loginDDT[mngr38195a, AqAqyhE](3)  Time elapsed: 4.896 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.guruBank.testCases.TC_LoginTest_002_UsingExcel.loginDDT(TC_LoginTest_002_UsingExcel.java:36)
+
+com.guruBank.testCases.TC_LoginTest_002_UsingExcel.loginDDT[mngr381950, AqAqyh1](4)  Time elapsed: 5.772 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.guruBank.testCases.TC_LoginTest_002_UsingExcel.loginDDT(TC_LoginTest_002_UsingExcel.java:36)
+
+com.guruBank.testCases.TC_EditCoustomer_004.editCoustomer  Time elapsed: 7.079 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"*[name='cusid']"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-5GI7F6N', ip: '192.168.80.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9794189f9bacbdb78e7ea32b0e05f756, findElement {using=name, value=cusid}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:55352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55352/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9794189f9bacbdb78e7ea32b0e05f756
+	at com.guruBank.testCases.TC_EditCoustomer_004.editCoustomer(TC_EditCoustomer_004.java:33)
+

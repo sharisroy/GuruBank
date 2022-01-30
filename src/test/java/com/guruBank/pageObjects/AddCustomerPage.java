@@ -21,10 +21,7 @@ public class AddCustomerPage {
 		this.driver= rdriver;
 		PageFactory.initElements(rdriver, this);
 	}
-	
-	
-	//WebElement clickAddCustomerLink= driver.findElement(By.xpath("//a[contains(text(),'New Customer')]"));
-	
+		
 	@FindBy(how = How.XPATH, using ="/html/body/div[3]/div/ul/li[2]/a")
 	@CacheLookup
 	WebElement clickAddCustomerLink;

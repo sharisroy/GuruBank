@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [BankTesting]">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [BankTesting]">
   <listeners>
     <listener class-name="com.guruBank.utilities.Reporting"/>
   </listeners>
-  <test thread-count="5" name="Bank Application(failed)">
+  <test thread-count="5" verbose="0" name="Bank Application(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="com.guruBank.testCases.TC_EditCoustomer_004">
+        <methods>
+          <include name="editCoustomer"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.guruBank.testCases.TC_EditCoustomer_004 -->
       <class name="com.guruBank.testCases.TC_LoginTest_002_UsingExcel">
         <methods>
           <include name="tearDown"/>
