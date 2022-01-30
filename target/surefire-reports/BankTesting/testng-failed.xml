@@ -7,13 +7,20 @@
   <test thread-count="5" verbose="0" name="Bank Application(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.guruBank.testCases.TC_AddCustomer_003">
+      <class name="com.guruBank.testCases.TC_EditCoustomer_004">
         <methods>
+          <include name="editCoustomer"/>
           <include name="tearDown"/>
-          <include name="addNewCustomer"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.guruBank.testCases.TC_AddCustomer_003 -->
+      </class> <!-- com.guruBank.testCases.TC_EditCoustomer_004 -->
+      <class name="com.guruBank.testCases.TC_LoginTest_002_UsingExcel">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginDDT" invocation-numbers="0 2 3"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.guruBank.testCases.TC_LoginTest_002_UsingExcel -->
     </classes>
   </test> <!-- Bank Application(failed) -->
 </suite> <!-- Failed suite [BankTesting] -->

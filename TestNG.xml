@@ -13,12 +13,12 @@
     <classes>
 
   		<class name="com.guruBank.testCases.TC_LoginTest_001" />  
-		<class name="com.guruBank.testCases.TC_LoginTest_002_UsingExcel" />
 		<class name="com.guruBank.testCases.TC_AddCustomer_003" /> 
 		<class name="com.guruBank.testCases.TC_EditCoustomer_004" /> 
 
 
-	<!--		
+	<!--	
+		<class name="com.guruBank.testCases.TC_LoginTest_002_UsingExcel" />	
 		 <class name="com.guruBank.testCases.TC_AddCustomer_003" /> 
 
 -->
