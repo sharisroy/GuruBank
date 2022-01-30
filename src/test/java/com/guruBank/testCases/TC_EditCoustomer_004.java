@@ -20,7 +20,7 @@ public class TC_EditCoustomer_004 extends BaseClass{
 		loginPage.setUserName(userId);
 		loginPage.setPassword(password);
 		loginPage.clickLoginButton();		
-		System.out.println("Login Done :)"); 
+		System.out.println("\nLogin Done :)"); 
 		
 		EditCustomerPage editCostomer = new EditCustomerPage(driver);
 		editCostomer.clickEditCoustomer();

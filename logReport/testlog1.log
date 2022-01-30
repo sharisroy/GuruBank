@@ -1,78 +1,15 @@
-2022-01-26 11:08:36,923 [main] INFO BankinProject - User name and password provided
-2022-01-26 11:08:51,555 [main] INFO BankinProject - User name and password provided
-2022-01-26 11:09:03,644 [main] INFO BankinProject - User name and password provided
-2022-01-26 11:09:10,707 [main] INFO BankinProject - User name and password provided
-2022-01-26 11:09:16,346 [main] INFO BankinProject - User name and password provided
-2022-01-26 11:22:08,347 [main] INFO BankinProject - User name and password provided
-2022-01-26 11:22:19,051 [main] INFO BankinProject - logged in successfully
-2022-01-26 11:22:19,488 [main] INFO BankinProject - User name and password provided
-2022-01-26 11:22:30,070 [main] INFO BankinProject - logged in successfully
-2022-01-26 11:22:30,631 [main] INFO BankinProject - User name and password provided
-2022-01-26 11:22:37,445 [main] INFO BankinProject - User name and password provided
-2022-01-26 11:22:42,828 [main] INFO BankinProject - User name and password provided
-2022-01-26 11:22:52,932 [main] INFO BankinProject - logged in successfully
-2022-01-26 11:24:26,795 [main] INFO BankinProject - User name and password provided
-2022-01-26 11:24:32,533 [main] INFO BankinProject - User name and password provided
-2022-01-26 11:24:43,144 [main] INFO BankinProject - logged in successfully
-2022-01-26 11:24:43,782 [main] INFO BankinProject - User name and password provided
-2022-01-26 11:24:48,632 [main] INFO BankinProject - User name and password provided
-2022-01-26 11:24:54,222 [main] INFO BankinProject - User name and password provided
-2022-01-26 11:25:07,552 [main] INFO BankinProject - logged in successfully
-2022-01-26 11:26:22,586 [main] INFO BankinProject - User name and password provided
-2022-01-26 11:26:29,721 [main] INFO BankinProject - User name and password provided
-2022-01-26 11:29:47,733 [main] INFO BankinProject - Url is Open
-2022-01-26 11:29:47,977 [main] INFO BankinProject - Enter User Id
-2022-01-26 11:29:48,143 [main] INFO BankinProject - Enter Password
-2022-01-26 11:29:50,432 [main] INFO BankinProject - Click Login Button
-2022-01-26 11:29:50,641 [main] INFO BankinProject - logged in successfully
-2022-01-27 00:56:51,082 [main] INFO BankinProject - Provide all data
-2022-01-27 00:56:54,193 [main] INFO BankinProject - validation started....
-2022-01-27 00:56:54,215 [main] INFO BankinProject - test case failed....
-2022-01-27 01:03:45,575 [main] INFO BankinProject - Provide all data
-2022-01-27 01:03:48,631 [main] INFO BankinProject - validation started....
-2022-01-27 01:03:48,699 [main] INFO BankinProject - test case failed....
-2022-01-27 01:05:28,350 [main] INFO BankinProject - Provide all data
-2022-01-27 01:07:10,591 [main] INFO BankinProject - validation started....
-2022-01-27 01:07:38,578 [main] INFO BankinProject - test case failed....
-2022-01-27 01:08:51,756 [main] INFO BankinProject - Provide all data
-2022-01-27 01:08:54,808 [main] INFO BankinProject - validation started....
-2022-01-27 01:08:54,840 [main] INFO BankinProject - test case failed....
-2022-01-27 01:12:54,589 [main] INFO BankinProject - Provide all data
-2022-01-27 01:15:47,984 [main] INFO BankinProject - Provide all data
-2022-01-27 01:18:50,541 [main] INFO BankinProject - Provide all data
-2022-01-27 01:31:30,899 [main] INFO BankinProject - Provide all data
-2022-01-27 01:31:34,031 [main] INFO BankinProject - validation started....
-2022-01-27 01:31:34,046 [main] INFO BankinProject - test case failed....
-2022-01-27 01:37:08,850 [main] INFO BankinProject - Provide all data
-2022-01-27 01:37:11,969 [main] INFO BankinProject - validation started....
-2022-01-27 01:37:11,983 [main] INFO BankinProject - test case failed....
-2022-01-27 01:39:43,510 [main] INFO BankinProject - Provide all data
-2022-01-27 01:42:48,689 [main] INFO BankinProject - Provide all data
-2022-01-27 01:44:51,573 [main] INFO BankinProject - Provide all data
-2022-01-27 01:46:55,926 [main] INFO BankinProject - Provide all data
-2022-01-27 01:49:19,665 [main] INFO BankinProject - Provide all data
-2022-01-27 01:49:29,017 [main] INFO BankinProject - validation started....
-2022-01-27 01:49:29,066 [main] INFO BankinProject - test case passed....
-2022-01-27 01:51:44,479 [main] INFO BankinProject - Provide all data
-2022-01-27 01:51:53,861 [main] INFO BankinProject - validation started....
-2022-01-27 01:51:53,910 [main] INFO BankinProject - test case passed....
-2022-01-27 11:16:54,922 [main] INFO BankinProject - Provide all data
-2022-01-27 11:17:04,332 [main] INFO BankinProject - validation started....
-2022-01-27 11:17:04,355 [main] INFO BankinProject - test case passed....
-2022-01-27 12:41:05,327 [main] INFO BankinProject - Provide all data
-2022-01-27 12:42:42,755 [main] INFO BankinProject - Provide all data
-2022-01-27 12:45:31,242 [main] INFO BankinProject - Provide all data
-2022-01-27 12:45:40,619 [main] INFO BankinProject - validation started....
-2022-01-27 12:45:40,641 [main] INFO BankinProject - test case passed....
-2022-01-27 12:47:03,521 [main] INFO BankinProject - Provide all data
-2022-01-27 13:07:01,629 [main] INFO BankinProject - Provide all data
-2022-01-27 13:07:10,996 [main] INFO BankinProject - validation started....
-2022-01-27 13:07:11,039 [main] INFO BankinProject - test case passed....
-2022-01-27 13:15:10,332 [main] INFO BankinProject - Entered Customer Id
-2022-01-27 13:15:11,578 [main] INFO BankinProject - Click Submit Button
-2022-01-27 13:53:39,371 [main] INFO BankinProject - Entered Customer Id
-2022-01-27 13:53:41,007 [main] INFO BankinProject - Click Submit Button
-2022-01-27 13:57:56,863 [main] INFO BankinProject - Entered Customer Id
-2022-01-27 13:57:58,523 [main] INFO BankinProject - Click Submit Button
-2022-01-27 15:58:19,427 [main] INFO BankinProject - Entered Customer Id
-2022-01-27 15:58:21,128 [main] INFO BankinProject - Click Submit Button
+2022-01-30 11:52:35,046 [main] INFO BankinProject - Url is Open
+2022-01-30 11:52:35,253 [main] INFO BankinProject - Enter User Id
+2022-01-30 11:52:35,410 [main] INFO BankinProject - Enter Password
+2022-01-30 11:52:35,932 [main] INFO BankinProject - Click Login Button
+2022-01-30 11:52:36,782 [main] INFO BankinProject - logged in successfully
+2022-01-30 11:52:48,130 [main] INFO BankinProject - User name and password provided
+2022-01-30 11:52:55,757 [main] INFO BankinProject - User name and password provided
+2022-01-30 11:53:06,673 [main] INFO BankinProject - logged in successfully
+2022-01-30 11:53:07,022 [main] INFO BankinProject - User name and password provided
+2022-01-30 11:53:12,814 [main] INFO BankinProject - User name and password provided
+2022-01-30 11:53:18,054 [main] INFO BankinProject - User name and password provided
+2022-01-30 11:53:30,028 [main] INFO BankinProject - logged in successfully
+2022-01-30 11:53:39,443 [main] INFO BankinProject - Login Done
+2022-01-30 11:53:40,209 [main] INFO BankinProject - Advertisement Not Found
+2022-01-30 11:53:54,441 [main] INFO BankinProject - Advertisement Not Found

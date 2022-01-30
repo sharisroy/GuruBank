@@ -9,25 +9,20 @@
 
 <!--        Run difftent browser depends on browser Name       -->
   <test name="Bank Application" >
-<parameter name="browser" value="chrome" />
+<parameter name="browser" value="edge" />
     <classes>
-<!--  		<class name="com.guruBank.testCases.TC_LoginTest_001" />  
+
+  		<class name="com.guruBank.testCases.TC_LoginTest_001" />  
 		<class name="com.guruBank.testCases.TC_LoginTest_002_UsingExcel" />
 		<class name="com.guruBank.testCases.TC_AddCustomer_003" /> 
 		<class name="com.guruBank.testCases.TC_EditCoustomer_004" /> 
 
--->
-			
+
+	<!--		
 		 <class name="com.guruBank.testCases.TC_AddCustomer_003" /> 
+
+-->
 
     </classes>
   </test>
 </suite>
-
-
-<!-- 
-
-<div id="dismiss-button" class="btn skip" aria-label="Close ad" role="button" tabindex="0"><div style="cursor: pointer;"><svg viewBox="0 0 48 48" fill="#5F6368"><path d="M38 12.83L35.17 10 24 21.17 12.83 10 10 12.83 21.17 24 10 35.17 12.83 38 24 26.83 35.17 38 38 35.17 26.83 24z"></path><path d="M0 0h48v48H0z" fill="none"></path></svg></div></div>
-//*[@id="dismiss-button"]
-
--->

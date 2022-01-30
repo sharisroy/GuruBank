@@ -9,10 +9,87 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">BankTesting</th></tr>
-<tr><td><a href="#t0">Bank Application</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">29,871</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Bank Application</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">5</td><td class="num">95,484</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">BankTesting</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Bank Application &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.guruBank.testCases.TC_EditCoustomer_004</td><td><a href="#m0">editCoustomer</a></td><td rowspan="1">1643267694378</td><td rowspan="1">20213</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">BankTesting</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Bank Application &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.guruBank.testCases.TC_AddCustomer_003</td><td><a href="#m0">addNewCustomer</a></td><td rowspan="1">1643522016608</td><td rowspan="1">6635</td></tr><tr class="failedodd"><td rowspan="1">com.guruBank.testCases.TC_EditCoustomer_004</td><td><a href="#m1">editCoustomer</a></td><td rowspan="1">1643522030971</td><td rowspan="1">6508</td></tr><tr class="failedeven"><td rowspan="3">com.guruBank.testCases.TC_LoginTest_002_UsingExcel</td><td><a href="#m2">loginDDT</a></td><td rowspan="3">1643521986675</td><td rowspan="3">5558</td></tr><tr class="failedeven"><td><a href="#m3">loginDDT</a></td></tr><tr class="failedeven"><td><a href="#m4">loginDDT</a></td></tr><tr><th colspan="4">Bank Application &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.guruBank.testCases.TC_LoginTest_001</td><td><a href="#m5">loginTest</a></td><td rowspan="1">1643521955031</td><td rowspan="1">1752</td></tr><tr class="passedodd"><td rowspan="2">com.guruBank.testCases.TC_LoginTest_002_UsingExcel</td><td><a href="#m6">loginDDT</a></td><td rowspan="2">1643521997579</td><td rowspan="2">12450</td></tr><tr class="passedodd"><td><a href="#m7">loginDDT</a></td></tr></tbody>
 </table>
-<h2>Bank Application</h2><h3 id="m0">com.guruBank.testCases.TC_EditCoustomer_004#editCoustomer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Bank Application</h2><h3 id="m0">com.guruBank.testCases.TC_AddCustomer_003#addNewCustomer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;name&apos;]&quot;}
+  (Session info: MicrosoftEdge=97.0.1072.76)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;DESKTOP-5GI7F6N&apos;, ip: &apos;192.168.80.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d300cad333d28e227ad3dff1c9d117ee, findElement {using=name, value=name}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 97.0.1072.76, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61565}, msedge: {msedgedriverVersion: 97.0.1072.69 (2e09adf9a2322..., userDataDir: C:\Users\haris\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61565/devtoo..., se:cdpVersion: 97.0.1072.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d300cad333d28e227ad3dff1c9d117ee
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy17.sendKeys(Unknown Source)
+	at com.guruBank.pageObjects.AddCustomerPage.customerName(AddCustomerPage.java:79)
+	at com.guruBank.testCases.TC_AddCustomer_003.addNewCustomer(TC_AddCustomer_003.java:38)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.guruBank.testCases.TC_EditCoustomer_004#editCoustomer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;cusid&apos;]&quot;}
+  (Session info: MicrosoftEdge=97.0.1072.76)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;DESKTOP-5GI7F6N&apos;, ip: &apos;192.168.80.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c1876d46164239bdbd3fc2e3d1557b25, findElement {using=name, value=cusid}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 97.0.1072.76, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61649}, msedge: {msedgedriverVersion: 97.0.1072.69 (2e09adf9a2322..., userDataDir: C:\Users\haris\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61649/devtoo..., se:cdpVersion: 97.0.1072.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c1876d46164239bdbd3fc2e3d1557b25
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy17.sendKeys(Unknown Source)
+	at com.guruBank.pageObjects.EditCustomerPage.customerId(EditCustomerPage.java:43)
+	at com.guruBank.testCases.TC_EditCoustomer_004.editCoustomer(TC_EditCoustomer_004.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.guruBank.testCases.TC_LoginTest_002_UsingExcel#loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr38195a</td><td>AqAqyhE</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.guruBank.testCases.TC_LoginTest_002_UsingExcel.loginDDT(TC_LoginTest_002_UsingExcel.java:36)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.guruBank.testCases.TC_LoginTest_002_UsingExcel#loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr381950</td><td>AqAqyh1</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.guruBank.testCases.TC_LoginTest_002_UsingExcel.loginDDT(TC_LoginTest_002_UsingExcel.java:36)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.guruBank.testCases.TC_LoginTest_002_UsingExcel#loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr38261a</td><td>evaneza</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.guruBank.testCases.TC_LoginTest_002_UsingExcel.loginDDT(TC_LoginTest_002_UsingExcel.java:36)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.guruBank.testCases.TC_LoginTest_001#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.guruBank.testCases.TC_LoginTest_002_UsingExcel#loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr382612</td><td>bebAsUr</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.guruBank.testCases.TC_LoginTest_002_UsingExcel#loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr381950</td><td>AqAqyhE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
